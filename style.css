@@ -1,0 +1,270 @@
+html,body {
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+    max-width: 100%;
+    background-color: #5CDB95;
+}
+
+.nav1 {
+    padding: 20px;
+    height: 100px;
+    width: 100%;
+    background-color: #05386B;
+}
+
+/* First part of Navbar */
+
+.Navbartext1 {
+    position: relative;
+    right: 200px;
+    color: #EDF5E1;
+}
+
+/* All of the below is SEARCH-BAR  */
+
+.searchBox {
+    position: relative;
+    bottom: 18px;
+    right: 450px;
+    transform:  translate(-50%,50%);
+    background: #5CDB95;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+
+}
+
+.searchBox:hover > .searchInput {
+    width: 240px;
+    padding: 0 6px;
+}
+
+.searchBox:hover > .searchButton {
+  background: #EDF5E1;
+  color : #05386B;
+}
+
+.searchButton {
+    color: #EDF5E1;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #5CDB95;
+    position: relative;
+    bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+
+.searchInput {
+    position: relative;
+    bottom: 10px;
+    border:none;
+    background: none;
+    outline:none;
+    float:left;
+    padding: 0;
+    color: #EDF5E1;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+
+}
+
+@media screen{
+.searchBox:hover > .searchInput {
+    width: 350px;
+    padding: 0 6px;
+}
+
+}
+
+/* All of the above is SEARCH-BAR ^^^ */
+
+
+
+/* Second part of Navbar */
+
+.Navbartext2 {
+    color: #EDF5E1;
+    position: relative;
+    left: 550px;
+}
+
+.button1 {
+    position: relative; 
+    left: 580px;
+    bottom: 1px;
+}
+
+.btn1 {
+    background-color: #5CDB95;
+    border-radius: 40px;
+    border: none;
+    color: #EDF5E1;   
+}
+.button2 {
+    position: relative;
+    left: 610px;
+    bottom: 1px;
+}
+
+.btn2 {
+    background-color: #5CDB95;
+    border-radius: 40px;
+    border: none;
+    color: #EDF5E1;   
+}
+
+/* All of the above is NAVBAR ^^^ */
+
+.Halal-Humor1 {
+    background-color: #5CDB95;
+    padding: 320px;
+    text-align: center;
+} 
+.Halal-HumorV4 {
+    position: relative;
+    z-index: 10;
+    height: 1500px;
+    padding: 320;
+    padding-bottom: 0px;
+    top: 60px;
+    right: 525px;
+}
+
+/* fix button later */
+
+.btn12 {
+    text-align: center;
+    border-radius: 40px;
+    border: none;
+    padding: 10px;
+    color: #EDF5E1;
+    background-color: #05386B;
+}
+
+.Moon {
+    position: relative;
+    bottom: 330px;
+    left: 1000px;
+    z-index: 9;
+}
+
+.cloud3V2 {
+    position: relative;
+    left: 500px;
+    bottom: 100;
+    z-index: 2;
+}
+
+.cloud1 {
+    position: relative;
+    width: 1700px;
+    bottom: 300px;
+    right: 800px;
+    z-index: 8;
+}
+
+.cloud2 {
+    position: relative;
+    width: 1500px;
+    bottom: 200px;
+    left: 600px;
+    z-index: 7;
+}
+
+.cloud2V2 {
+    position: relative;
+    width: 1300px;
+    bottom: 100px;
+    right: 600;
+    z-index: 6;
+}
+.cloud2V3 {
+    position: relative;
+    width: 1500px;
+    top: 500px;
+    bottom: 500px;
+    left: 600;
+    z-index: 5;
+}
+.cloud2V4 {
+    position: relative;
+    width: 1500px;
+    top: 1000px;
+    right: 800;
+    z-index: 4;
+}
+
+.cloud3 {
+    position: relative;
+    width: 1000px;
+    top: 1000px;
+    bottom: 100px;
+    left: 850px;
+    z-index: 12;
+}
+
+.footer1 {
+    position: relative;
+    padding: 100px;
+    color: #EDF5E1;
+    background-color: #05386B;
+    z-index: 11;
+}
+
+/* All of the above is the HOME PAGE ^^^ */
+
+/* All of the below is the ABOUT PAGE */
+
+
+
+.body1 {
+    font-family: 'Josefin Sans', sans-serif;
+    background-image: url('/File/Images/Clouds2.png');
+    width: 100%;
+    vertical-align: middle;
+}
+
+.header2 {
+    text-align: center;
+    padding: 200px;
+}
+
+.header3 {
+    text-align: left;
+    padding: 20px;
+}
+
+.carousel1 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.title-Carousel {
+    text-align: center;
+}
+
+.carousel-item {
+    padding: 200px;
+    text-align: center;
+    color: #EDF5E1;
+    background-color: #05386B;
+    vertical-align: middle;
+}
+
+.carousel-item img {
+    width: 300px;
+    padding: 20px;
+}
+.carousel-inner {
+    padding: 50px;
+    background-color: #05386B;
+    height: 1000px;
+}
